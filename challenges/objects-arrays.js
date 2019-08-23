@@ -170,3 +170,15 @@ Stretch: If you haven't already, convert your array method callbacks into arrow 
 
 */
 
+// const animalNames = [];
+// zooAnimals.forEach(element => animalNames.push(`Name: ${element.animal_name} Scientific: ${element.scientific_name}`);
+// console.log(animalNames);
+
+// const lowerCase = zooAnimals.map(animal => animal.animal_name.toLowerCase());
+// console.log(lowerCase); 
+
+// const largerPopulation = zooAnimals.filter(animal => animal.population < 5);
+// console.log(largerPopulation);
+
+// const populationTotal = zooAnimals.reduce((accum, animal) => accum += animal.population, 0);
+// console.log(populationTotal);
